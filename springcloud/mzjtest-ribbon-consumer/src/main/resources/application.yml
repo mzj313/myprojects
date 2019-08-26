@@ -1,0 +1,31 @@
+server:
+  port: 9000
+
+spring:
+  application:
+    name: ribbon-consumer
+  http:
+    encoding:
+      charset:UTF-8
+      enable:true
+      force:true
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/
+ribbon:
+  ConnectTimeout:1000
+  ReadTimeout:3000
+  OkToRetryOnAllOperations:true
+  MaxAutoRetries:1
+  MaxAutoRetriesNextServer:2
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds:5000
+feign:
+  hystrix:
+    enabled:true

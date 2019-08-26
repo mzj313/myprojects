@@ -1,0 +1,1 @@
+Spring Cloud Feign: 整合了ribbon和hystrix，提供一种声明式web服务客户端定义方式。

@@ -1,0 +1,18 @@
+server:
+  port: 8081
+  
+spring:
+  application:
+    name: microservice
+  http:
+    encoding:
+      charset:UTF-8
+      enable:true
+      force:true
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/
+#修改控制台instance中status的链接
+  instance:
+    status-page-url: http://localhost:${server.port}/swagger-ui.html 

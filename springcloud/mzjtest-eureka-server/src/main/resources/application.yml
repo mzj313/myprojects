@@ -1,0 +1,15 @@
+server:
+  port: 1111
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+  server:
+    enableSelfPreservation: false
+#注册中心清理无效节点的时间间隔,默认60000毫秒,即60秒
+    evictionIntervalTimerInMs: 30000
