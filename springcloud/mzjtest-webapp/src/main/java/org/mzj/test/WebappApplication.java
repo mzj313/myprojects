@@ -4,6 +4,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.cloud.netflix.feign.EnableFeignClients;
 
+/**
+ * @author Administrator
+ */
 @EnableFeignClients    //开启feign支持
 @SpringBootApplication
 public class WebappApplication {

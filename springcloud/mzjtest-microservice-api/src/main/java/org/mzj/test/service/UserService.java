@@ -6,6 +6,9 @@ import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+/**
+ * @author Administrator
+ */
 @RequestMapping("/user")
 public interface UserService {
 	

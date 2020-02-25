@@ -8,11 +8,11 @@
 	<packaging>pom</packaging>
 
 	<name>mzjtest-springcloud</name>
-	<url>http://maven.apache.org</url>
-	
+
 	<modules>
         <module>mzjtest-config-client</module>
         <module>mzjtest-config-server</module>
+        <module>mzjtest-eureka-server</module>
         <module>mzjtest-microservice</module>
         <module>mzjtest-microservice-api</module>
         <module>mzjtest-microservice-provider</module>
