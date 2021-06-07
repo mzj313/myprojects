@@ -154,7 +154,7 @@
 
         <junit.version>4.11</junit.version>
         <slf4j-api.version>1.6.4</slf4j-api.version>
-        <logback-classic.version>0.9.28</logback-classic.version>
+        <logback-classic.version>1.2.0</logback-classic.version>
         <word.version>1.2</word.version>
         <ansj.version>5.0.2</ansj.version>
         <stanford.version>3.5.2</stanford.version>
